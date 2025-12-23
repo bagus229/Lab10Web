@@ -5,6 +5,8 @@
 ## Kelas: TI.24.A.3
 ## Mata Kuliah: Pemrograman Web 1
 
+## Untuk Praktikum 13 dan 14 ada dipaling bawah
+
 ## Langkah-langkah Praktikum
 
 Membuat file dengan nama mobil.php.
@@ -56,3 +58,25 @@ File ini berfungsi sebagai class yang menangani seluruh proses koneksi ke databa
 ### config/database.php
 file ini berfungsi untuk menyimpan pengaturan dasar yang dibutuhkan aplikasi untuk terkoneksi ke database. Dengan menaruh semua informasi penting seperti host, username, password, dan nama database dalam satu array bernama $config, proses pengelolaan aplikasi menjadi lebih sederhana.
 ###### ![Gambar 1](ss/code13.png)
+
+### Praktikum 13 dan 14
+Membuat pencarian data dengan penggunaan filter pada query data. 
+Input:
+###### ![Gambar 1](ss/code14.png)
+
+Lalu menambahkan filter pada query.
+Input:
+###### ![Gambar 1](ss/code16.png)
+
+Output:
+###### ![Gambar 1](ss/code15.png)
+
+Berfungsi untuk mencari data barang di halaman awal dan berikutnya.
+
+Membuat pagination yang dapat di geser kehalaman sebelumnya dan berikutnya dengan kode seperti dibawah:
+Input:
+###### ![Gambar 1](ss/code17.png)
+###### ![Gambar 1](ss/code18.png)
+
+Output:
+###### ![Gambar 1](ss/code19.png)
